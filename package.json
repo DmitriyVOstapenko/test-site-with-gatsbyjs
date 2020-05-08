@@ -1,0 +1,31 @@
+{
+  "name": "my-site",
+  "private": false,
+  "description": "My test site to learn Gatsby",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.20",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriyVOstapenko/my-site"
+  },
+  "bugs": {
+    "url": "https://github.com/DmitriyVOstapenko/my-site/issues"
+  }
+}
