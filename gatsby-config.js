@@ -1,4 +1,12 @@
 module.exports = {
+  siteMetadata: {
+    title: "My test site",
+    description: "A simple site with Gatsby and MDX",
+    url: "https://mytestsite.com",
+    image: "/office.jpg",
+    twitterUsername: "anonimus",
+    author: "Skillthreve",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
