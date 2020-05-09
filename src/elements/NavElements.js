@@ -9,7 +9,7 @@ export const NavWrapper = styled.nav`
     grid-column: 2 / span 6;
   }
 
-  img {
-    width: 30%;
+  & img {
+    height: 30px;
   }
 `
