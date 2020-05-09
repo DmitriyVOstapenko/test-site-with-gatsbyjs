@@ -4,12 +4,13 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
-      facebook: file(relativePath: {eq: "facebook.svg"}) {
+      facebook: file(relativePath: { eq: "facebook.svg" }) {
         publicURL
       }
       linkedin: file(relativePath: { eq: "linkedin.svg" }) {
@@ -57,7 +58,7 @@ export const Footer = () => {
             <img src={data.twitter.publicURL} alt="Twitter logo" />
           </a>
         </FooterSocialIcons>
-        <p>All rights reserved</p>
+        <P size="xSmall" color="dark3">All rights reserved</P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
