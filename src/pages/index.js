@@ -1,10 +1,14 @@
 import React from "react"
-import { Container } from "../components"
+import { Container, FeatureImage } from "../components"
 
 //export default () => <div>Привет семье</div>
 
 const Indexpage = () => {
-  return <Container></Container>
+  return (
+    <Container>
+      <FeatureImage />
+    </Container>
+  )
 }
 
 export default Indexpage
