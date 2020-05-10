@@ -1,6 +1,6 @@
 {
   "name": "my-site",
-  "private": false,
+  "private": true,
   "description": "My test site to learn Gatsby",
   "version": "0.0.1",
   "license": "MIT",
